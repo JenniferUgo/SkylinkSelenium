@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
+
 @RunWith(JUnit4.class)
 public class FirstTestClass {
 
@@ -25,61 +27,33 @@ public class FirstTestClass {
 //        ChromeDriver chromeDriver = new ChromeDriver();
 //        chromeDriver.get("https://google.com");
 //    }
-
-
-//    @Test
-//    public void numberArray() {
-//        ArrayList<String> numberArray = new ArrayList<String>();
-//
-//        numberArray.add("1");
-//        numberArray.add("2");
-//        numberArray.add("3");
-//        numberArray.add("4");
-//        numberArray.add("5");
-//        numberArray.add("6");
-//        numberArray.add("7");
-//        numberArray.add("8");
-//        numberArray.add("9");
-//        numberArray.add("10");
-//
-//        for (int i = 0; i < 10; i += 2) {
-//            System.out.println(numberArray.get(i));
-//            System.out.println("Odd");
-//        }
-//        for (int i = 1; i < 10; i += 2) {
-//            System.out.println(numberArray.get(i));
-//            System.out.println("Even");
-//        }
-//    }
     @Test
-        public void negativeTest() throws InterruptedException {
-        driver = new ChromeDriver();
-        driver.get("https://amaninja-concept2.myshopify.com/password");
-        WebElement passwordField = driver.findElement(By.id("password"));
-        passwordField.sendKeys("anything!!");
-        Thread.sleep(5000);
-        //chromeDriver = new ChromeDriver();
-        //chromeDriver.get("https://amaninja-concept2.myshopify.com/password");
-        //WebElement passwordField = chromeDriver.findElement(By.id("password"));
-        //passwordField.sendKeys("anything!!");
+    public void numberArray() {
+        ArrayList<String> numberArray = new ArrayList<String>();
 
-        WebElement buttonEnter = driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/form/button"));
-        buttonEnter.click();
-    }
+        numberArray.add("1");
+        numberArray.add("2");
+        numberArray.add("3");
+        numberArray.add("4");
+        numberArray.add("5");
+        numberArray.add("6");
+        numberArray.add("7");
+        numberArray.add("8");
+        numberArray.add("9");
+        numberArray.add("10");
 
-    @Test
-    public void positiveTest() throws InterruptedException {
-        driver = new ChromeDriver();
-        driver.get("https://amaninja-concept2.myshopify.com/password");
-        WebElement passwordField = driver.findElement(By.id("password"));
-        passwordField.sendKeys("Pw: Amaninja!1");
-        Thread.sleep(5000);
-    }
-        @After
-        public void closeBrowser () {
-            driver.quit();
+        for (int i = 0; i < 10; i += 2) {
+            System.out.println(numberArray.get(i));
+            System.out.println("Odd");
+        }
+        for (int i = 1; i < 10; i += 2) {
+            System.out.println(numberArray.get(i));
+            System.out.println("Even");
         }
     }
+
+    }
+
 
 
 //Pw: Amaninja!1
