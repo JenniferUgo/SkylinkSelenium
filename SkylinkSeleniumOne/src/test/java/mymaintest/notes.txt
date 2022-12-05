@@ -14,3 +14,9 @@
          Array
          Class
          Interface
+
+
+   Java while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean
+   condition. It's a repeating if statement. We use it in Java when we need to repeatedly execute a block of statements.
+   If the number of iterations is not fixed, it is recommended to use the while loop.
+
