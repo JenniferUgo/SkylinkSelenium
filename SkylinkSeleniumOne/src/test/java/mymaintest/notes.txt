@@ -1,0 +1,16 @@
+                               Data Types in Java
+ Primitive - mostly used for numbers are int and double
+         byte - Stores whole numbers from -128 to 127
+         short - Stores whole numbers from -32,768 to 32,767
+         int - Stores whole numbers from -2147483648 to 2147483648
+         long - Stores whole numbers from - 9,223,372,036,854,775,808 to 9,223,372,036,854,775,808
+         float - Stores fractional numbers. sufficient for storing 6 to 7 decimal digits
+         double - Stores fractional numbers. Sufficient for storing 15 decimal digits
+         boolean - Stores true or false values. Mostly used for conditional testing
+         char - Stores a single character/letter or ASCII
+
+  Non-Primitive
+         String - Stores sequence of characters (text). String values must be surrounded by double quotes
+         Array
+         Class
+         Interface
